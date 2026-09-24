@@ -1,0 +1,62 @@
+# =============================================
+# Unreal Engine 5 標準 .gitignore
+# （github/gitignore の UnrealEngine.gitignore をベースに調整）
+# =============================================
+
+# --- Visual Studio / IDE ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+.vsconfig
+UpgradeLog*.htm
+
+# --- コンパイル成果物 ---
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.exe
+*.out
+*.app
+*.ipa
+*.pdb
+*.ilk
+*.exp
+
+# --- UE 生成ディレクトリ ---
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Backup/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# --- 個人用（開発者別）コンテンツ ---
+Content/Developers/
+
+# --- ビルド済みデータ等（Cook 成果物） ---
+*.pak
+*.patch
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
